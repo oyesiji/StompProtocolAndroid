@@ -1,8 +1,7 @@
 package ua.naiksoftware.stomp
 
-
-import io.reactivex.functions.Predicate
-import io.reactivex.subscribers.TestSubscriber
+import io.reactivex.rxjava3.functions.Predicate
+import io.reactivex.rxjava3.subscribers.TestSubscriber
 import ua.naiksoftware.stomp.dto.LifecycleEvent
 
 class ConnectionTests extends Configuration {
